@@ -54,3 +54,25 @@ ul {
 #logo {
   color: grey;
 }
+.icon{
+width: 23px;
+height:23px;
+color:blue;
+}
+.subheadertext{
+   font-family: AvenirNext, Avenir, "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+    font-size: 1.25rem;
+    margin: 0;
+
+}
+.center-vertical{
+  align-items: center;
+
+}
+.form-container{
+  background: white;
+  width: 33%;
+}
+
+
