@@ -14,6 +14,22 @@ p {
 ul {
   list-style-type: none;
 }
+fieldset{
+  border: 0px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+
+}
+label{
+  padding-bottom: 8px;
+}
+input{
+  height: 30px;
+}
+input:focus{
+  border: 1px solid #58a2EC;
+}
 
 .body-text {
   font-size: 0.75rem;
@@ -22,6 +38,9 @@ ul {
 
 .body-text-link {
   color: #0077c5;
+}
+.boxes{
+
 }
 
 .center {
@@ -50,16 +69,16 @@ ul {
 
 .form-container {
   background: white;
-  width: 44%;
+  width: 25%;
   border: 1px solid #c7c7c7;
-  padding-top: 32px;
-  padding-bottom: 32px;
+ padding: 42px;
 }
 
 .icon {
   color: blue;
   margin-right: 8px;
 }
+
 
 .lock-icon {
   margin-right: 8px;
@@ -97,3 +116,4 @@ ul {
   background-color: #0077c5;
   color: white;
 }
+
