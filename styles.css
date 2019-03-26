@@ -84,6 +84,15 @@ input:focus {
   border: 1px solid #c7c7c7;
   padding-top: 42px;
 }
+.footer-text{
+ text-align: center;
+ margin-top: 24px;
+ margin-bottom:24px;
+ line-height: 1.5;
+ font-weight: 400;
+
+
+}
 
 .icon {
   color: white;
