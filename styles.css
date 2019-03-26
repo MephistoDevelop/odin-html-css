@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding-left: 24px;
   padding-right: 24px;
-  background-color: lightgray;
+  background-color: #eceef1;
   font-family: AvenirNext, Avenir, "Helvetica Neue", Helvetica, Arial,
     sans-serif;
 }
@@ -24,17 +24,64 @@ ul {
   color: #0077c5;
 }
 
+.center {
+  justify-content: center;
+}
+
+.center-vertical {
+  align-items: center;
+}
+
+.col {
+  flex-direction: column;
+  align-items: center;
+}
+
 .container {
   display: flex;
   flex: 1;
 }
 
-.center {
-  justify-content: center;
+.feature {
+  margin-left: 4px;
+  margin-right: 4px;
+  align-items: center;
+}
+
+.form-container {
+  background: white;
+  width: 44%;
+  border: 1px solid #c7c7c7;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.icon {
+  color: blue;
+  margin-right: 8px;
 }
 
 .lock-icon {
   margin-right: 8px;
+}
+
+.subheadertext {
+  font-family: AvenirNext, Avenir, "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+  font-size: 1.25rem;
+  margin: 0;
+}
+
+.title {
+  margin: 0;
+  font-size: 24px;
+  color: #4c4c4c;
+  text-align: center;
+}
+
+#logo {
+  color: grey;
+  margin: 0;
 }
 
 #navigation {
@@ -50,29 +97,3 @@ ul {
   background-color: #0077c5;
   color: white;
 }
-
-#logo {
-  color: grey;
-}
-.icon{
-width: 23px;
-height:23px;
-color:blue;
-}
-.subheadertext{
-   font-family: AvenirNext, Avenir, "Helvetica Neue", Helvetica, Arial,
-    sans-serif;
-    font-size: 1.25rem;
-    margin: 0;
-
-}
-.center-vertical{
-  align-items: center;
-
-}
-.form-container{
-  background: white;
-  width: 33%;
-}
-
-
