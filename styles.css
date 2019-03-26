@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  padding-left: 24px;
+  padding-right: 24px;
+  background-color: lightgray;
+  font-family: AvenirNext, Avenir, "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+}
+
+p {
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.body-text {
+  font-size: 0.75rem;
+  color: #505050;
+}
+
+.body-text-link {
+  color: #0077c5;
+}
+
+.container {
+  display: flex;
+  flex: 1;
+}
+
+.lock-icon {
+  margin-right: 8px;
+}
+
+#navigation {
+  align-items: center;
+  justify-content: flex-end;
+}
+
+#signin-button {
+  border-radius: 5px;
+  border: 1px solid black;
+  height: 36px;
+  min-width: 90px;
+  background-color: #0077c5;
+  color: white;
+}
