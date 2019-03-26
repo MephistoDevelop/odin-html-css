@@ -29,6 +29,10 @@ ul {
   flex: 1;
 }
 
+.center {
+  justify-content: center;
+}
+
 .lock-icon {
   margin-right: 8px;
 }
@@ -45,4 +49,8 @@ ul {
   min-width: 90px;
   background-color: #0077c5;
   color: white;
+}
+
+#logo {
+  color: grey;
 }
