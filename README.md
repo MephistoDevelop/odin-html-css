@@ -11,7 +11,7 @@ Simple intiuit sign up page Clone made with HMTL and CSS (Flexbox)
 - Display and aling HTML elements.
 - Flexbox
 
-[**Live Demo**](https://rawcdn.githack.com/noincomedev/odin-html-css/633d032fa73f7ee90b38b179b1afa3e19a08fcf9/index.html)
+[**Live Demo**](https://rawcdn.githack.com/noincomedev/odin-html-css/7e72db1021d008cfe33bbb7128f5e11271fea648/index.html)
 
 **Coded by**
 [MephistoDevelop](https://www.github.com/mephistodevelop) & [Noincomedev](https://www.github.com/noincomedev)
