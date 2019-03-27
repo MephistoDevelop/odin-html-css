@@ -1,16 +1,107 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>ODIN-HTML-CSS</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-    <script src="main.js"></script>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="assets/styles.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
   </head>
   <body>
+    <div class="container" id="navigation">
+      <ul style="margin-right: 8px">
+        <li>
+          <p class="body-text">
+            Already have an Intuit account?
+          </p>
+        </li>
+        <li>
+          <p class="body-text body-text-link">
+            I forgot my User ID or Password
+          </p>
+        </li>
+      </ul>
+      <button id="signin-button">
+        <i class="fas fa-lock lock-icon"></i>Sing In
+      </button>
+    </div>
     <main>
-      <h1>HTML-CSS</h1>
+      <div class="container center">
+        <h1 id="logo">INTUIT</h1>
+      </div>
+      <div class="container col">
+        <div class="container center-vertical" style="padding: 16px">
+          <div class="container feature">
+            <i class="fab fa-renren icon"></i>
+            <p class="body-text subheadertext">mint</p>
+          </div>
+          <div class="container feature">
+            <i class="fab fa-drupal icon "></i>
+            <p class="body-text subheadertext">quickbooks</p>
+          </div>
+          <div class="container feature">
+            <i class="fas fa-stamp icon"></i>
+            <p class="body-text subheadertext">turbotax</p>
+          </div>
+        </div>
+        <div class="container col form-container ">
+          <h2 class="title">One Account. <br />Everything Intuit.</h2>
+          <p
+            class="body-text"
+            style="text-align: center; margin-top: 16px; margin-bottom: 16px"
+          >
+            Create an account for all of Intuit's products <br />including Mint.
+            <a href="#" class="body-text-link">Learn more</a>
+          </p>
+          <fieldset>
+            <label class="body-text">Email address</label>
+            <input name="email" type="email" />
+          </fieldset>
+          <fieldset>
+            <label class="body-text">Phone (recommended)</label>
+            <input name="phone" type="tel" />
+          </fieldset>
+          <fieldset>
+            <label class="body-text">Password</label>
+            <input name="password" type="password" />
+          </fieldset>
+          <button id="signup-button">
+            <i class="fas fa-lock lock-icon"></i>Create Account
+          </button>
+          <p id="tos-ps-text">
+            By clicking Create Account, you agree to our <br />
+            <a href="#" class="body-text-link">Terms of Service</a> and have
+            read and acknowledge <br />
+            our <a href="#" class="body-text-link">Privacy Statement</a>.
+          </p>
+          <p id="captcha-text">
+            Invisible reCAPTCHA by Google
+            <a href="#" class="body-text-link">Privacy Policy</a> and
+            <a href="#" class="body-text-link">Terms of Use</a>.
+          </p>
+        </div>
+      </div>
+      <div class="container center">
+        <p class="footer-text body-text">
+          Legal Privacy Security<br />
+          © 2019 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB,
+          TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc.
+          <br />
+          Terms and conditions, features, support, pricing, and service options
+          subject to change without notice.
+        </p>
+      </div>
     </main>
   </body>
 </html>
