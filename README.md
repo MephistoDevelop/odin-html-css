@@ -6,7 +6,7 @@
 
 Simple intiuit sign up page Clone made with HMTL and CSS (Flexbox)
 
-![screenshot](./todo.gif)
+![screenshot](./screenshottuit.gif)
 
 ## Built With HTML,CSS,FlexBox
 
